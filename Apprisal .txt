@@ -1,0 +1,105 @@
+DEVELOPMENT / INITIATIVE :
+	1.Intiated the technical session with the team and architects to help in resolving the blocks
+	
+	2.To brainstrom the work around solutions.
+
+    3. Helped in resloving single point failure of the project there was a lot dependency on one resource to reslove the development blocks. I took an intiative in understanding the req or problem and helped in resolving most of the blocks.
+	 
+WORK SHARING:
+     1. Intiated the product session and provide the knowledge transfer of current technical stack to the new joinees.   
+	 2. I took-up the workload from my colleagues, in order to help the team also the sprint to have a successful completion. 
+
+DESIGN, DEVELOPMENT AND CODE REVIEW :	 
+
+	 1. As a senior resource in the team, I involved my self in understandign the code, product and requirements. Helped the team with those knowldge by doing code reviews, data testing, knowledge transfers on PIG Latin, JAVA, shell scriptting etc.
+
+	 
+    CB AUTOMATION :
+
+	1. Completed the development for CB (U.S) and CB Automation (U.K) [A new project scope that was added]. I was the only resource involved in the migration of CB [U.K] [CB (U.K) is converting of all manual procedures in to automation. Key issues during the development were resolved within a short period. Helped the to provide the knowledge transfer for execution of CB Automation steps.
+
+JAVA IMPLEMETATION :
+	1. Being the only JAVA resource I have implemented all the code that was required. The JAVA code has been used across the project. This has helped the team to unblock there way ahead and also helped the project migrate seamlessly.
+	2.I have Closly worked with Architec to implement the maven for build automation.
+   	3.I have provided Knowledge Transfer to the rest of the team members including QE.
+    	
+PIG LATIN IMPLEMETATION :
+
+	I worked on implementing the PIG Latin scripts, this is one of the major work-around in the project. This is one of the major game changer in the Hadoop Migration project.
+
+     I have provided Knowledge Transfer to the rest of the team members including QE to understand the work-around implementation and also help them move forward with their work.
+  
+ONE TIME INGESTION :
+		The team being highly dependent on data for development, code review, unit testing, data testing tasks, I took an initiative with the help from colleagues in importing data from various sources such as Sybase and Oracle using Sqoop.
+		
+		I not only understood the use of the service used, but also helped others by providing KT.
+		I engaged myself in ingestion and understood the code and complexity of the implementation. Once I had proper hands-on I also helped in reviewing the code for one time ingestion.
+		
+		I took it up as a challenge and helped the QE team not only understand but also to have better knowledge on the one-time ingestion process.
+			
+FTP:
+
+ 1. To transfer the files to external system,I have implemented the FTP connection between the Linux to  window machine.This is the one of the major   task in hadoop migration.    			
+	
+	Additional :
+	
+	1. Extended my working hours sitting late nights, weekends and holidays base on priority of the task and urgency.
+	2. I took a intiative to helped the new joinees to support to setup the environement like raisning the service request and helping the all the required softwares.
+
+	
+	
+3. I have worked on major functional area like RS_Trans load ,Ref client ,CB Automation,Currency conversions and Merchant monitoring .
+
+4.Involved in design, development and code review. 
+
+5. Implemented Java code in Hadoop for supporting missing functionality like loops and conditions in phoenix.
+
+6. Implemented Rank function in pig for supporting windowing functions.
+
+7. Implemented Maven in java for build automation.
+
+8. Implemented in Sqoop script for one time ingestion for oracle and Sybase.
+
+	
+		
+
+9. Implemented FTP for file transfer between the Linux to  window machine in Hadoop project.
+
+10.Provided guidance to the team members during all phases of development to achieve the end result. 
+
+11.In addition to extended my working hours sitting late nights, weekends and holidays.
+
+
+
+
+Deployment:
+    
+    1. Involved in creation of deployment package.
+  
+
+  Training:
+      1. Attended external trainings like ACI Communication 360
+      2. Attended internal Scrum Master Trainings.
+
+
+
+
+ 2. Actively participating in all Scrum meetings and internal discussions to adopt the complete agile methodologies. 
+
+ 1.I have  Attended internal Scrum Master Trainings to adopt the Agile methodologies.
+ 2. I  have  Acted as scrum master role for some days in the absence of scrum master .
+ 3. Actively participated in all grooming session and groom the user stoiries based on complexities .
+ 4. Actively participated in retrospective meeting and provide the feedback on sprint.
+ 5.closely worked with product owner to understand the requirements if not clear.
+ 
+ 
+
+
+I took an intiative to cooridnate with HWX Team and helped in resolving most of the blocks.
+	 
+
+
+
+
+
+
