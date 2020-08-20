@@ -1,0 +1,21 @@
+For Dev/CIT/QE/PERF, we are using below Ansible installed server:
+              IP Address                        :             10.13.28.160
+              Login credential               :             buildtest / CSITest123
+              YML script folder             :              /home/utthands/deployment/ansible/ReDi
+
+              Inventory file name        :             redi-inventory-DEV.yml
+              YML file name                 :             deploy-HBase.yml
+
+              Run command                 :             ansible-playbook    deploy-HBase.yml      --inventory-file=redi-inventory-DEV.yml    --ask-pass
+              
+                                                                        (Note: when you run the playbook, it will prompt for password. Please supply password for edge node user =  srvredi )
+
+FYI, I had moved CSI2 Ansible scripts to /home/buildtest/ansible-control-server/deployment/csi2 folder since we are using “buildtest” user. 
+For ReDi, we can add a folder under /home/buildtest/ansible-control-server/deployment and move the scripts.
+
+
+For Jenkins, please use below URL:
+https://nrc2jenkins05vm.am.tsacorp.com/job/Retailers/job/Merchant%20Fraud%20Prevention/job/ReD%20Shield/
+              and project name = ReDi_Hadoop-CI-Build
+
+			  ansible-playbook deploy-ReDi.yml --inventory-file=../cit/ReDiInventory-CIT.yml --ask-pass

@@ -1,0 +1,1 @@
+http://cov3lredihadoop07vm:9090/nifi/

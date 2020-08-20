@@ -1,0 +1,81 @@
+Kafka Streaming
+
+https://kaizen.itversity.com/setup-development-environment-intellij-and-scala-big-data-hadoop-and-spark/
+https://kaizen.itversity.com/lessons/understanding-kafka-multi-broker-cluster-setup/ but its not working
+https://kaizen.itversity.com/courses/building-streaming-data-pipelines-using-kafka/lessons/overview-of-nosql-databases/ 
+
+Hive encryption
+Hdfs encryption 
+
+mapr01.itversity.com
+https://engmrk.com/gradient-descent/?utm_campaign=News&utm_medium=Community&utm_source=DataCamp.com
+
+Scala Unit testing
+
+https://blog.knoldus.com/2014/04/12/mock-unit-testing-using-mockito-in-play-scala-project/
+
+http://blog.madhukaraphatak.com/introduction-to-spark-two-part-1/
+
+
+Its not complete but accessible.
+
+URL:  http://cov3lddbsgem01.am.tsacorp.com:9021/
+
+Control Center  - URL:  http://cov3lddbsgem01.am.tsacorp.com:9021/
+
+Zookeeper/ Kafka Nodes   :   cov3lddbsgem04,  cov3lddbsgem05,  cov3lddbsgem06
+
+Zookeeper.connect = port 2181        
+Bootstrap-server port = 9092
+
+You can use either DNS or IP for zookeeper.connect or bootstrap-servers,  I have tested both ways. 
+
+Examples:
+   
+Producer:
+kafka-console-producer --broker-list cov3lddbsgem04.am.tsacorp.com:9092,cov3lddbsgem05.am.tsacorp.com:9092,cov3lddbsgem06.am.tsacorp.com:9092 --topic test_topic
+
+Consumer:
+kafka-console-consumer --bootstrap-server cov3lddbsgem04.am.tsacorp.com:9092,cov3lddbsgem05.am.tsacorp.com:9092,cov3lddbsgem06.am.tsacorp.com:9092 --topic test_topic --from-beginning
+
+[root@cov3lhdpedge01vm ~]# kafka-console-producer --broker-list cov3lddbsgem04.am.tsacorp.com:9092,cov3lddbsgem05.am.tsacorp.com:9092,cov3lddbsgem06.am.tsacorp.com:9092 --topic test_topic
+>Test
+>another test
+>sending test messages through kafka producer
+>done
+>exit
+>finshed
+>1
+>2
+>3
+>4
+>5
+>6
+>7
+>8
+>9
+>0
+
+
+[root@cov3lddbsgem05 log]# kafka-console-consumer --bootstrap-server cov3lddbsgem04.am.tsacorp.com:9092,cov3lddbsgem05.am.tsacorp.com:9092,cov3lddbsgem06.am.tsacorp.com:9092 --topic test_topic –from-beginning
+Test
+another test
+sending test messages through kafka producer
+done
+exit
+finshed
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0
+
+^CProcessed a total of 16 messages
+
+
+
